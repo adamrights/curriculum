@@ -373,6 +373,7 @@ There are lots of cool things to do with an array. You can rearrange the order o
 
 ```ruby
 def gameplan
+  meals = ["breakfast", "lunch", "dinner"]
   meals.each do |meal|
     puts "We'll have #{meal}..."
   end
